@@ -2,6 +2,9 @@ import { Product } from '../types/product'
 import ProductCard from '../../components/ProductCard'
 import Search from '../../components/Search'
 
+
+export const dynamic = 'force-dynamic'
+
 // 這個函數模擬從後端 API 獲取搜索結果
 async function getSearchResults(query: string): Promise<Product[]> {
   // 在實際應用中，這裡應該調用後端 API
