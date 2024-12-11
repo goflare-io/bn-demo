@@ -10,11 +10,11 @@ const nextConfig = {
         unoptimized: true,
         domains: ['bn-demo.goflare.io']
     },
+    trailingSlash: true,
     experimental: {
         runtime: 'edge',
     }
 }
-
 
 
 export default nextConfig
