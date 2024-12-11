@@ -5,11 +5,12 @@
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'standalone',
+    output: 'export',
     images: {
         unoptimized: true,
         domains: ['bn-demo.goflare.io']
     },
+    trailingSlash: true,
 }
 
 export default nextConfig
