@@ -4,6 +4,7 @@ import Search from '../../components/Search'
 
 
 export const dynamic = 'force-dynamic'
+export const runtime = 'edge';
 
 // 這個函數模擬從後端 API 獲取搜索結果
 async function getSearchResults(query: string): Promise<Product[]> {

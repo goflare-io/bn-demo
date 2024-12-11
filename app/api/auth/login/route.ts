@@ -3,6 +3,7 @@ import bcrypt from 'bcryptjs'
 import jwt from 'jsonwebtoken'
 import { users } from '../../../models/User'
 
+export const runtime = 'edge';
 const JWT_SECRET = process.env.JWT_SECRET || 'your-secret-key'
 
 export async function POST(req: Request) {
